@@ -22,26 +22,14 @@ Then open your browser at `http://localhost:8501`
 
 ```
 customer-churn-prediction/
-│
-├── data/
-│   └── telecom_churn.csv        # Generated dataset (7,000 records)
-│
-├── screenshots/
-│   ├── eda_overview.png          # EDA charts
-│   ├── correlation_heatmap.png   # Feature correlation matrix
-│   ├── model_performance.png     # ROC curves + confusion matrix
-│   └── churn_drivers.png         # Top 15 feature importances
-│
-├── generate_data.py              # Synthetic dataset generator + EDA + model training
-├── dashboard.py                  # Streamlit interactive dashboard
-│
-├── churn_model.pkl               # Saved Random Forest model
-├── scaler.pkl                    # Saved StandardScaler
-├── feature_names.pkl             # Feature names list
-│
-└── README.md
-```
-
+README.md
+generate_data.py
+train_model.py
+dashboard.py
+requirements.txt
+README.md
+screenshots/
+data/
 ---
 
 ## 🧠 ML Pipeline
