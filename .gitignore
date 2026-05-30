@@ -1,0 +1,4 @@
+data/
+screenshots/
+*.pkl
+__pycache__/
